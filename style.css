@@ -1,0 +1,94 @@
+body {
+    /* Pixel Winter Lake by @anasabdin*/
+    background: linear-gradient(to top, #FFFFFF4A, #FFFFFF4A), url(data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cfilter%20id%3D%22noise%22%3E%20%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%20%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.5%200%22%20%2F%3E%20%3C%2Ffilter%3E%20%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E), url(images/winter-lake-gif.gif);
+    background-size: cover;
+    background-color: #8a6b7c;
+    background-position: center;
+}
+
+.page {
+    background-color: #F5DFF0;
+    width: 31vw;
+    margin: auto;
+    padding: 50px 40px 50px 40px;
+    border-radius: 6.25px;
+    box-shadow: #80647A87 8px 8px;
+    font-family: "Lora", sans-serif;
+}
+
+.column {
+    width: 45%;
+    float: left;
+    margin: 0.5em;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1.75em;
+    transform: skew(-0.3deg);
+    -webkit-transform: skew(-3deg);
+    margin-bottom: 0;
+}
+
+h2 {
+    padding: 5px;
+    margin: 0;
+    border: 1px solid black;
+    background-color: #c8b6c4;
+    font-size: 0.875em;
+    letter-spacing: -0.05em;
+}
+
+#intro-card {
+    margin: 10px;
+    padding: 20px;
+    height: 8em;
+}
+
+#avatar {
+    border-radius: 50%;
+    height: 9em;
+    float: left;
+}
+
+#tagline {
+    margin: 0;
+    font-size: 0.875em;
+}
+
+#intro-text {
+    margin: auto;
+    float: right;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: -0.05em;
+}
+
+p.home {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 0.875em;
+    letter-spacing: -0.05em;
+    border: 1px solid black;
+    border-top: 1px solid transparent;
+}
+
+a {
+    color: black;
+}
+
+a.icon {
+    text-decoration: none;
+}
+
+.icons {
+    font-size: 1.25em;
+    padding: 0.75em;
+    margin: 1.375em;
+    text-align: center;
+}
+
+.bi {
+    margin: 4px;
+}
