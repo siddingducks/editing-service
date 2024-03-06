@@ -2,6 +2,7 @@ body {
     /* Pixel Winter Lake by @anasabdin*/
     background: linear-gradient(to top, #FFFFFF4A, #FFFFFF4A), url(data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cfilter%20id%3D%22noise%22%3E%20%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%20%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.5%200%22%20%2F%3E%20%3C%2Ffilter%3E%20%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E), url(images/winter-lake-gif.gif);
     background-size: cover;
+    background-repeat: repeat, repeat, no-repeat;
     background-color: #8a6b7c;
     background-position: center;
 }
@@ -15,6 +16,10 @@ body {
     box-shadow: #80647A87 8px 8px;
     font-family: "Lora", sans-serif;
 }
+
+/*#column-containter {
+    column-gap: 10px;
+}*/
 
 .column {
     width: 45%;
@@ -37,6 +42,19 @@ h2 {
     background-color: #c8b6c4;
     font-size: 0.875em;
     letter-spacing: -0.05em;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 1.25em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h4 {
+    padding-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #intro-card {
@@ -74,6 +92,19 @@ p.home {
     border-top: 1px solid transparent;
 }
 
+p.samples {
+    padding: 5px;
+    font-size: 0.875em;
+    letter-spacing: -0.05em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+hr {
+    border: 0.25px solid #000;
+    margin: 0 5px;
+}
+
 a {
     color: black;
 }
@@ -86,6 +117,13 @@ a.icon {
     font-size: 1.25em;
     padding: 0.75em;
     margin: 1.375em;
+    text-align: center;
+}
+
+.icons-2 {
+    font-size: 1.25em;
+    padding: 0;
+    margin-top: 0.5em;
     text-align: center;
 }
 
